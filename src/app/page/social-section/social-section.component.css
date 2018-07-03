@@ -1,0 +1,47 @@
+/*---------------------
+	Social section
+-----------------------*/
+.social-section {
+    background-color: transparent;
+	padding: 80px 0;
+}
+
+.social-section .social-links {
+	display: inline-block;
+	background:transparent;
+	position: relative;
+	z-index: 5;
+}
+
+.social-section .social-links a {
+	color: #fff;
+	font-size: 36px;
+	margin-right: 40px;
+}
+
+.social-section .social-link-warp {
+	position: relative;
+}
+
+.social-section .social-link-warp h2 {
+	display: inline-block;
+	float: right;
+	font-weight: 400;
+	padding-left: 30px;
+	background: transparent;
+	position: relative;
+    z-index: 5;
+    color:white;
+    font-size: 48px;
+}
+
+.social-section .social-link-warp:after {
+	position: absolute;
+	content: '';
+	width: 50%;
+	height: 2px;
+	left: 23%;
+	top: 50%;
+	margin-top: 1px;
+	background:transparent;
+}
