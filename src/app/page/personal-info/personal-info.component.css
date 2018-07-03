@@ -10,7 +10,7 @@
 }
 
 .hero-text h2 {
-	font-size: 160px;
+	font-size: 139px;
 	line-height: normal;
     margin-bottom: 20px;
     color:white;
@@ -23,9 +23,14 @@
 }
 
 .hero-image {
-	padding-top: 70px;
+	padding-top: 42px;
+	
 }
-
+.hero-image  img{
+	width:509px;
+	box-shadow: 0 0 86px #39373b;
+	border-radius:20px;
+}
 .hero-info h2 {
     margin-bottom: 30px;
     color:white
