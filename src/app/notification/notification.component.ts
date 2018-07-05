@@ -31,5 +31,7 @@ export class NotificationComponent implements OnInit {
   hideNotification(){
     this.showNotification=false;
   }
-
+  ngOnDestroy(): void {
+    this.notificationMessagesSub && this.notificationMessagesSub.unsubscribe()
+  }
 }
