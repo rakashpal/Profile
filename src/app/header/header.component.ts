@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NotificationService } from '../service/notification.service';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor() { }
+  
+  constructor(private notificationService:NotificationService) { }
 
   ngOnInit() {
+  }
+  public downloadResume(){
+    this.pushMessage('success', 'Thanks for showing Your Interest for Hiring Me');
+  }
+  public pushMessage(type:string, text:string) :void {
+    this.notificationService.addMessage({type:type,text:text});
   }
 
 }

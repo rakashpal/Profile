@@ -5,13 +5,14 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
-
+import { NotificationComponent } from '../notification/notification.component';
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NotificationComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +21,8 @@ import { FooterComponent } from '../footer/footer.component';
   exports:  [
     HeaderComponent,
     FooterComponent,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    NotificationComponent
   ]
 })
 export class SharedModule { }
