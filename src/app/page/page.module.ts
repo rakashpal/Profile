@@ -7,7 +7,8 @@ import {SharedModule} from '../shared/shared.module';
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { SocialSectionComponent } from './social-section/social-section.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { PortfolioComponent } from './portfolio/portfolio.component'
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactUsComponent } from './contact-us/contact-us.component'
 @NgModule({
   declarations: [
     HomeComponent,
@@ -15,7 +16,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component'
     PersonalInfoComponent,
     SocialSectionComponent,
     ExperienceComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ContactUsComponent
    
   ],
   imports: [
