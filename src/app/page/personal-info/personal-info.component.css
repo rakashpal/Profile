@@ -23,11 +23,11 @@
 }
 
 .hero-image {
-	padding-top: 42px;
+	padding-top: 168px;
 	
 }
 .hero-image  img{
-	width:509px;
+	width:300px;
 	box-shadow: 0 0 86px #39373b;
 	border-radius:20px;
 }

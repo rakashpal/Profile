@@ -11,7 +11,12 @@
 }
 
 .site-logo h2 a {
-	color: #fff;
+    color: #fff;
+    padding: 7px 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-left-color: #009fff;
+    border-right-color: #009fff;
 }
 
 .site-logo p {
