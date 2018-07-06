@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 
+
 import { HomeComponent } from './home/home.component';
 import { PageComponent } from './page.component';
 import { PageRoutingModule } from './page-routing.module';
@@ -23,6 +24,6 @@ import { ContactUsComponent } from './contact-us/contact-us.component'
   imports: [
     PageRoutingModule,
     SharedModule
-  ]
+    ]
 })
 export class PageModule { }

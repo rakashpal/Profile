@@ -1,4 +1,4 @@
-<div class="alert  alert-dismissible fade show"  [ngClass]="className" *ngIf="showNotification" role="alert">
+<div class="alert  alert-dismissible fade show" [@messageFade]="in" [ngClass]="className" *ngIf="showNotification" role="alert">
   {{message}}
   <button type="button" (click)="hideNotification()" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>

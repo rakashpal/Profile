@@ -15,6 +15,9 @@ export class HeaderComponent implements OnInit {
   public downloadResume(){
     this.pushMessage('success', 'Thanks for showing Your Interest for Hiring Me');
   }
+  public discoverMe(){
+    this.pushMessage('warning', 'This page is not created yet.');
+  }
   public pushMessage(type:string, text:string) :void {
     this.notificationService.addMessage({type:type,text:text});
   }
