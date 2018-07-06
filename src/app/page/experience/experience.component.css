@@ -78,3 +78,21 @@
     bottom: 0;
     background: #fff;
 }
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.hidden-md {
+		display: none !important;
+	}
+	.resume-list {
+		margin-left: 0;
+		padding-left: 0;
+		border-left: none;
+	}
+}
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+	.resume-list h2 {
+		font-size: 50px;
+	}
+}

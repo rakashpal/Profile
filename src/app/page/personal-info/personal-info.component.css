@@ -55,3 +55,27 @@
 .hero-info ul li:last-child {
 	margin-bottom: 0;
 }
+
+@media only screen and (max-width: 1600px) {
+	.hero-text h2 {
+		font-size: 120px;
+	}
+}
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.hero-text h2 {
+		font-size: 80px;
+	}
+}
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+	.hero-text h2 {
+		font-size: 50px;
+	}
+	.hero-info ul li {
+		font-size: 18px;
+	}
+	.hero-info ul li span {
+		display: block;
+	}
+}	
