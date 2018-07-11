@@ -45,3 +45,15 @@
 	margin-top: 1px;
 	background:transparent;
 }
+@media only screen and (max-width: 767px){
+
+.hidden-md {
+    display: none !important;
+}
+}
+@media only screen and (max-width: 479px){
+.social-section .social-links a {
+	margin-right: 30px;
+	font-size: 34px;
+}
+}
